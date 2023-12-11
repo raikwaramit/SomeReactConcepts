@@ -14,13 +14,13 @@ export default function OthersConcept(props: IOthersConceptProps) {
             </NavLink>
           </div>
           <div className=" rounded-lg bg-violet-400 hover:bg-violet-600 outline hover:shadow-md">
-            <NavLink className="p-6" to="page1">
-              Page 1
+            <NavLink className="p-6" to="virtualdom">
+              Virtual Dom concept
             </NavLink>
           </div>
           <div className="rounded-lg bg-violet-400 hover:bg-violet-600 outline hover:shadow-md">
-            <NavLink className="p-6" to="page2">
-              Page 2
+            <NavLink className="p-6" to="hoc">
+              Higher order function
             </NavLink>
           </div>
           <div className="rounded-lg bg-violet-400 hover:bg-violet-600 outline hover:shadow-md">
