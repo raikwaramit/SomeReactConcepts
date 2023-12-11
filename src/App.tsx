@@ -1,8 +1,14 @@
+import { Outlet } from "react-router-dom";
 import "./App.css";
-import MainScreen from "./screen/MainScreen";
+import HeaderComponent from "./screen/HeaderComponent";
 
 function App() {
-  return <MainScreen />;
+  return (
+    <>
+      <HeaderComponent />
+      <Outlet />
+    </>
+  );
 }
 
 export default App;
