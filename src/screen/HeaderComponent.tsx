@@ -34,10 +34,11 @@ interface NavLinkProps {
 
 function NavLinkComponent(props: NavLinkProps) {
   return (
-    <div className="w-fit h-fit  hover:shadow-md outline hover:cursor-pointer hover:bg-blue-500 text-lg rounded-md m-3 bg-amber-400 ">
-      <NavLink className={({ isActive }) => "p-4 text-center "} to={props.path}>
-        {props.text}
-      </NavLink>
-    </div>
+    <NavLink
+      className=" self-center hover:shadow-md outline hover:cursor-pointer hover:bg-blue-500 text-lg rounded-md bg-amber-400 p-2 m-2 text-center"
+      to={props.path}
+    >
+      {props.text}
+    </NavLink>
   );
 }

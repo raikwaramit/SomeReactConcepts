@@ -1,12 +1,17 @@
+import * as React from "react";
 import { NavLink, Outlet } from "react-router-dom";
 
-export interface IOthersConceptProps {}
+export interface INestedRoutingComponentProps {}
 
-export default function OthersConcept(props: IOthersConceptProps) {
+export default function NestedRoutingComponent(
+  props: INestedRoutingComponentProps
+) {
   return (
     <>
       <div className="flex-col-auto justify-center m-5 rounded-lg outline">
-        <div className="text-3xl text-center my-5">Others React concepts </div>
+        <div className="text-3xl text-center my-5">
+          Nested routing component
+        </div>
         <div className="flex gap-4 p-10">
           <div className=" rounded-lg bg-violet-400 hover:bg-violet-600 outline hover:shadow-md">
             <NavLink className="p-6" to="">
